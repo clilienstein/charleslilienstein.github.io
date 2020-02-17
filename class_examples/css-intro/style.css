@@ -1,4 +1,39 @@
-h1 {color: teal; background-color: purple}
-h2 {color: rgb(250, 0, 250); text-align: center}
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+h1 {
+  color: red;
+  background-color: black;
+ }
+
+h2 {
+  color: rgb(250, 0, 250); background-color: green;
+  text-align: center;
+  font-size: 50px
+}
+
 h3 {color: #bada55; font-size: 30pt}
+
 /* notes */
+
+p {
+  font-weight: 900;
+  font-family: 'Lacquer', sans-serif;
+  line-height: 2;
+}
+
+b {font-weight: 200}
+
+i, em{font-weight: 400}
+
+a {
+  font-family: 'Lacquer', sans-serif;
+text-decoration: line-through;
+}
+
+a:hover {
+  background-color: pink
+}
+
+p:hover {
+  background-color: green
+}
