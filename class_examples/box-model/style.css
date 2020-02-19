@@ -1,0 +1,36 @@
+body {
+  background-color: pink;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: gray;
+  border: 3px solid red;
+  /*  padding is for space between content and border */
+  padding: 30px;
+  /* padding is for space between content and border */
+  margin: 50px;
+  height: 100px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+  padding: 30px 50px;
+  /* if you have two values of padding, they are applied in pairs, top/bottom, left, right */
+}
+
+.wed {
+  background-color: gold;
+  /* if you have four values, in order clockwise around the box, top, right, bottom, left */
+  padding: 40px 20px 10px 100px;
+  margin: -40px 9000px 22px 13px;
+}
+
+footer {
+  color: purple;
+  background-color: cyan;
+  padding: 50px;
+}

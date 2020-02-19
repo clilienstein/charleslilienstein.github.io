@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
+
+body {
+  background-color: lavender;
+}
+
 h1 {
-  color: green;
+  color: cyan;
   background-color: black;
   text-align: center;
   font-size: 100px;
 }
+
 
 th {
   text-align: left
@@ -16,7 +22,7 @@ margin-top: 0;
 }
 
 td:hover {
-  background-color: lime;
+  background-color: violet;
 }
 
 .bury {
@@ -35,7 +41,7 @@ td:hover {
 }
 
 .glass2grass {
-  color: white;
+  color: lime;
   background-color: black;
 }
 
