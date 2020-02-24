@@ -19,7 +19,6 @@ h1 {
   font-size: 100px;
 }
 
-
 th {
   text-align: left
 }
@@ -53,5 +52,6 @@ td:hover {
 }
 
 .insta {
+  color: green;
   text-decoration: line-through;
 }
