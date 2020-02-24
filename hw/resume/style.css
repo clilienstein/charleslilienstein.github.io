@@ -5,6 +5,13 @@ body {
   background-color: lavender;
 }
 
+p {
+  font-weight: 900;
+  text-shadow: red 1px 0 10px;
+  font-family: 'Lacquer', sans-serif;
+  line-height: 2;
+}
+
 h1 {
   color: cyan;
   background-color: black;
