@@ -1,5 +1,5 @@
 body {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
   background-color: gray;
@@ -39,113 +39,28 @@ a {
   width: 50%;
 }
 
-.grid-container-1 {
+.grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
 }
 
-.grid-container-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-}
-
-.grid-container-3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-}
-
-.grid-container-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-}
-
-
-.food-1-cover {
+.food-1-cover, .food-2-cover, .food-3-cover, .food-4-cover {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  width: 100%;
 }
 
-.food-1-story {
-  grid-column-start: 3;
+.food-1-story, .food-2-story, .food-3-story, .food-4-story {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: justify;
 }
 
-.food-1-list {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-2-cover {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-2-story {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align: justify;
-}
-
-.food-2-list {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-3-cover {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-3-story {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align: justify;
-}
-
-.food-3-list {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-4-cover {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.food-4-story {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align: justify;
-}
-
-.food-4-list {
+.food-1-list, .food-2-list, .food-3-list, .food-4-list, .food-5-list {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;

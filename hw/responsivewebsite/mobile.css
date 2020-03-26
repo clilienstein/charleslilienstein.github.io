@@ -1,17 +1,34 @@
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px) {
+
   /* what goes here */
   /* put in here the css for things that need to change at this size */
   body {
-    background-color:  #99cc99;
+    background-color: #99cc99;
   }
 
-.grid-container-1 {
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 100px);
-  grid-column-gap: 0px;
-  grid-row-gap: 15px;
-}
+  .cambodianflag {
+    width: 100%;
+  }
 
+  .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+  }
 
+  .food-1-story, .food-2-story, .food-3-story, .food-4-story {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: justify;
+  }
 
+  .food-1-list, .food-2-list, .food-3-list, .food-4-list {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
