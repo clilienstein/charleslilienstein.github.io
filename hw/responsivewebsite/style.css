@@ -60,7 +60,7 @@ a {
   text-align: justify;
 }
 
-.food-1-list, .food-2-list, .food-3-list, .food-4-list, .food-5-list {
+.food-1-list, .food-2-list, .food-3-list, .food-4-list {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
