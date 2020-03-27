@@ -11,8 +11,8 @@
   }
 
   .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4 {
-    grid-template-columns: auto auto 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 15px;
   }
