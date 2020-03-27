@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 body {
   max-width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
   background-color: gray;
+  font-family: 'Lacquer', sans-serif;
 }
 
 nav {
