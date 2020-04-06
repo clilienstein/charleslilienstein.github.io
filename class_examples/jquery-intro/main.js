@@ -7,6 +7,7 @@
       // $("#title").css("color", "#f9432a");
       // $("#title").css("font-size", "500px")
       $("#title").addClass("big-text");
+      console.log("this ran");
     });
 
     $("#button2").click(function() {
@@ -14,14 +15,18 @@
       $("#title").removeClass("big-text");
     })
 
-    $("p").mouseover(function() {
-      $("p").css("font-size", "21px")
-    });
+    // $("p").mouseover(function() {
+    //   $("p").css("font-size", "21px")
+    // });
 
-    $("p").mouseleave(function() {
-      $("p").css("background-color", "yellow");
-      $("p").css("font-size", "16px");
-    });
+    // $("p").mouseleave(function() {
+    //   $("p").css("background-color", "yellow");
+    //   $("p").css("font-size", "16px");
+    // });
     // $("#title").css("font-size", "200px")
     // $("#title").html("More information #1")
+
+    $("#box").mousedown(function() {
+      $("#box").css("background-color", "green");
+    });
   });
