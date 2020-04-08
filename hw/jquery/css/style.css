@@ -1,0 +1,13 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+header, main {
+  background-color: red;
+}
