@@ -6,7 +6,10 @@ body {
 .grid-container-1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  border: 1px solid green;
 }
+
+grid-place-content {}
 
 header, main {
   background-color: red;
