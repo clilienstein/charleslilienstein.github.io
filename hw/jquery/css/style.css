@@ -12,5 +12,5 @@ body {
 grid-place-content {}
 
 header, main {
-  background-color: red;
+  background-color: green;
 }
