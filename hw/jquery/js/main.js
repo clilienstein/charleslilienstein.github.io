@@ -12,22 +12,47 @@ $(document).ready(function() {
     $("p").css("font-size", "20px")
   });
 
-  $("title1").mouseover(function() {
-    $("title1").css("width", "100px");
+  $("#button3").click(function() {
+    $("#artlist").hide();
+  });
+
+  $("#button4").click(function() {
+    $("#artlist").show();
+  });
+
+  $("art1").mouseover(function() {
+    $("art-1").css("width", "150%");
   });
 
 
 
+
+
+  // // trying to make the img bigger when mouseover
+  // $("title1").mouseover(function() {
+  //     $("title1").css(");
+  //     });
+
+
+
+  // $("title1").mouseover(function() {
+  //   $("title1").css("transform", "scale(1.1, 1.1)");
+  // }, function() {
+  //   $(this).css("transform", "none");
+  // });
+
+
+  // EVERYTHING BELOW IS FROM CLASS
   // let titleClciked = false;
   // $("title").click(function() {
   //   if (titleClicked = false) {
   //
-  //     $("title").html("Dope <em>Art</em> In My House");
+  //     $("title").html("<em>Art</em> In My House");
   //
   //     titleClicked = true;
   //   } else if (titleClicked = true) {
   //
-  //     $("title").html("Dope <em>Art</em> In My House");
+  //     $("title").html("<em>Art</em> In My House");
   //
   //     titleClicked = false;
   //   }

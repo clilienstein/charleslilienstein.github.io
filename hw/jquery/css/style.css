@@ -8,12 +8,9 @@ body {
   font-family: 'Comic Neue', cursive;
 }
 
-header, main {
-  background-color: aqua;
-}
-
 .title {
   text-align: center;
+  font-size: 80px;
 }
 
 a {
@@ -38,7 +35,7 @@ a {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-  width: 100%;
+  width: 75%;
 }
 
 .art-info-1, .art-info-2, .art-info-3, .art-info-4, .art-info-5 {
