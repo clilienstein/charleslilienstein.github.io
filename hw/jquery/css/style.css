@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-</style>');
-
 
 body {
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Comic Neue', cursive;
+  background-color: #ad33ff
 }
 
 .title {
@@ -19,7 +18,7 @@ a {
 
 .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-column-gap: 50px;
 }
 

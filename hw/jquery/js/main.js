@@ -20,9 +20,16 @@ $(document).ready(function() {
     $("#artlist").show();
   });
 
-  $("art1").mouseover(function() {
-    $("art-1").css("width", "150%");
+  $("#title").click(function() {
+    $("#title").html("");
   });
+
+  $("#art1").mouseover(function() {
+    $("#art1").css("width", "150%");
+  });
+
+
+
 
 
 
