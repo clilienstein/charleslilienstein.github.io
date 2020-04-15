@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+</style>');
+
 
 body {
   max-width: 900px;
   margin: 0 auto;
-  font-family: 'Lacquer', sans-serif;
+  font-family: 'Comic Neue', cursive;
 }
 
 header, main {
@@ -17,12 +19,19 @@ header, main {
 .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 50px;
+}
+
+.title-1, .title-2, .title-3, .title-4, .title-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .art-1, .art-2, .art-3, .art-4, .art-5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  gird-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
   width: 100%;
