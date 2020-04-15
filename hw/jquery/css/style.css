@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 body {
   max-width: 900px;
   margin: 0 auto;
+  font-family: 'Lacquer', sans-serif;
 }
 
 .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.art-1, .art-2, .art-3, .art-4, .art-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+}
+
+.art-info-1, .art-info-2, .art-info-3, .art-info-4, .art-info-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 grid-place-content {}
