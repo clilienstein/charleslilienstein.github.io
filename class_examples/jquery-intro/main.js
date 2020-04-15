@@ -10,14 +10,9 @@
       console.log("this ran");
     });
 
-    $("#button2").click(function() {
-      // stuff we put here will happen when you click button2.
-      $("#title").removeClass("big-text");
-    })
-
-    // $("p").mouseover(function() {
-    //   $("p").css("font-size", "21px")
-    // });
+    $("title1").mouseover(function() {
+      $("title1").css("font-size", "21px")
+    });
 
     // $("p").mouseleave(function() {
     //   $("p").css("background-color", "yellow");
@@ -25,8 +20,5 @@
     // });
     // $("#title").css("font-size", "200px")
     // $("#title").html("More information #1")
-
-    $("#box").mousedown(function() {
-      $("#box").css("background-color", "green");
-    });
+    ?
   });

@@ -16,6 +16,10 @@ header, main {
   text-align: center;
 }
 
+a {
+  text-decoration: underline wavy;
+}
+
 .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
