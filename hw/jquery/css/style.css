@@ -3,14 +3,14 @@ body {
   margin: 0 auto;
 }
 
-.grid-container-1 {
+.grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border: 1px solid green;
+  border: 1px solid black;
 }
 
 grid-place-content {}
 
 header, main {
-  background-color: green;
+  background-color: violet;
 }
