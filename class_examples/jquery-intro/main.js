@@ -4,8 +4,8 @@
 
     $("#button1").click(function() {
       // code that runs when you click on the part of the page that has id=#button1
-      // $("#title").css("color", "#f9432a");
-      // $("#title").css("font-size", "500px")
+      $("#title").css("color", "#f9432a");
+      $("#title").css("font-size", "500px");
       $("#title").addClass("big-text");
       console.log("this ran");
     });
