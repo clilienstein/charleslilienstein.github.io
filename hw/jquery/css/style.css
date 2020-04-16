@@ -4,7 +4,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Comic Neue', cursive;
-  background-color: #ad33ff
+  background-color: #bf00ff;
 }
 
 .title {
@@ -30,7 +30,7 @@ a {
 }
 
 .art-1, .art-2, .art-3, .art-4, .art-5 {
-  gird-column-start: 3;
+  grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
