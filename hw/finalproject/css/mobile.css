@@ -1,0 +1,7 @@
+@media only screen and (max-width:767px) {
+
+  /* what goes here */
+  /* put in here the css for things that need to change at this size */
+  body {
+    background-color: #99cc99;
+  }
