@@ -17,7 +17,8 @@ body {
 }
 
 a {
-  text-decoration: underline wavy;
+  text-decoration: underline;
+  color: black;
 }
 
 .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5, .grid-container-6 {
@@ -34,10 +35,10 @@ a {
 }
 
 .pic-1, .pic-2, .pic-3, .pic-4, .pic-5, .pic-6 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   width: 75%;
 }
 
