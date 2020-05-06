@@ -3,5 +3,42 @@
   /* what goes here */
   /* put in here the css for things that need to change at this size */
   body {
-    background-color: #99cc99;
+    /* background-color: #99cc99; */
+    margin: 5%;
   }
+
+  .grid-container-1,
+  .grid-container-3,
+  .grid-container-5,
+  .grid-container-2 {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 25px;
+  }
+
+  .title-1,
+  .title-3,
+  .title-5,
+  .title-2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .pic-1,
+  .pic-3,
+  .pic-5,
+  .pic-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+  }
+
+  .info-1,
+  .info-3,
+  .info-5,
+  .info-2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 0;
+  }
+}
