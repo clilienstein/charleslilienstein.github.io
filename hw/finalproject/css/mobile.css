@@ -22,7 +22,8 @@
   .title-2,
   .title-3,
   .title-4,
-  .title-5. .title-6 {
+  .title-5,
+  .title-6 {
     grid-column: 1/2;
     grid-row: 1/2;
   }
